@@ -66,7 +66,7 @@ Key movement functions:
 - Turn delays (e.g., 970 ms / 990 ms) and distance thresholds (e.g., `< 9`) are **calibration-dependent**. You may need to tune them based on servo speed, wheel friction, and sensor placement.
 
 ### Files
-- `maze_solver.ino` — main Arduino sketch
+- `maincode.cpp` — main Arduino sketch
 
 ### Usage
 1. Wire servos and IR sensors according to the pin definitions at the top of the sketch.
@@ -91,4 +91,8 @@ Key movement functions:
 ### Tools
 - **Arduino IDE** (upload + Serial Monitor debugging)
 - **Tinkercad Circuits** (simulation / prototyping)
+
+## Wiring (Tinkercad)
+![Tinkercad Circuit](TinkerCadCircuit.jpeg)
+
 
