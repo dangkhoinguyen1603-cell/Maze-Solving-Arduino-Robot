@@ -80,7 +80,7 @@ Key movement functions:
 - **Actuation:** 2× continuous-rotation micro servos  
   - Example: SparkFun “Servo - Generic (Sub-Micro Size)” (see product page)
 - **Sensing:** 3× IR wall sensors (Left / Center / Right) using **modulated IR at ~38 kHz**  
-  - IR receiver module with **38 kHz filtering** (e.g., TSOP4038-class receiver) :contentReference[oaicite:1]{index=1}
+  - IR receiver module with **38 kHz filtering** (e.g., TSOP4038-class receiver) 
 - **Indicators:** 3× LEDs for wall-detection status (debug)
 
 ### Software / Firmware
