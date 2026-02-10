@@ -73,3 +73,22 @@ Key movement functions:
 2. Upload the sketch to your Arduino.
 3. Place the robot in a maze with walls detectable by IR reflection.
 4. Tune turning delays and thresholds if the robot under-turns/over-turns.
+## Tech Stack
+
+### Hardware
+- **Microcontroller:** Arduino (UNO / compatible)
+- **Actuation:** 2× continuous-rotation micro servos  
+  - Example: SparkFun “Servo - Generic (Sub-Micro Size)” (see product page)
+- **Sensing:** 3× IR wall sensors (Left / Center / Right) using **modulated IR at ~38 kHz**  
+  - IR receiver module with **38 kHz filtering** (e.g., TSOP4038-class receiver) :contentReference[oaicite:1]{index=1}
+- **Indicators:** 3× LEDs for wall-detection status (debug)
+
+### Software / Firmware
+- **Language:** Arduino C/C++
+- **Core library:** `Servo.h` (servo pulse control via `writeMicroseconds`)
+- **IR detection method:** Modulated tone + **frequency sweep (38–42 kHz)** for robust wall detection
+
+### Tools
+- **Arduino IDE** (upload + Serial Monitor debugging)
+- **Tinkercad Circuits** (simulation / prototyping)
+
