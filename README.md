@@ -1,6 +1,9 @@
 ## Maze-Solving Robot (Arduino) — IR Wall Following + Dead-End Handling
 
 This Arduino sketch controls a two-wheel differential drive robot to autonomously navigate a maze using **three IR reflective sensors** (left / center / right) and **two continuous-rotation servos** (left / right wheels). The robot follows a **wall-following strategy (right-hand rule as the default)**, performs **90° corner turns**, and executes a **180° escape turn** when it detects a dead end.
+## Test Maze
+![Test maze setup](test-maze.jpg)
+
 
 ### Hardware Overview
 - **Controller:** Arduino (any compatible board)
